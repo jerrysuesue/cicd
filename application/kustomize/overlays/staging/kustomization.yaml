@@ -1,0 +1,7 @@
+namePrefix: staging-
+commonLabels:
+  owner: jerry        
+resources:
+- ../../base
+patches:
+- path: replica_count.yaml
